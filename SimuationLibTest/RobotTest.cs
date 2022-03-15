@@ -9,6 +9,7 @@ namespace SimulationLibTest
 {
     public class RobotTest
     {
+        //
         private Robot _robot;
 
         [SetUp]
