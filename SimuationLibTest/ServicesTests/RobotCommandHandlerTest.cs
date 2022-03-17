@@ -203,7 +203,7 @@ namespace SimulationLibTest.ServicesTests
             _commandHandler.MoveRobot(rob, 1, _placementValidationServiceMock.Object, _commandBuilderMock.Object, _commandServiceMock.Object);
 
             //Assert
-            _commandServiceMock.Verify(x => x.SetCommand(It.IsAny<MoveCommand>()));
+            _commandServiceMock.Verify(x => x.SetCommand(_commandMock.Object));
             _commandServiceMock.Verify(x => x.Invoke());
         }
 
