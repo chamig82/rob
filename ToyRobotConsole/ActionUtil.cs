@@ -1,4 +1,4 @@
-﻿namespace ToyRobotConsole.Utils
+﻿namespace ToyRobotConsole
 {
     public enum CommandAction
     {
