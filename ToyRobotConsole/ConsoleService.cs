@@ -4,7 +4,7 @@ using SimulationLib;
 using SimulationLib.Exceptions;
 using SimulationLib.Services;
 using ToyRobotConsole.Exceptions;
-using ToyRobotConsole.Utils;
+
 
 
 namespace ToyRobotConsole
